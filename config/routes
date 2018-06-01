@@ -12,3 +12,9 @@
 /comments CommentR POST
 
 /profile ProfileR GET
+
+/voluntario                            VoluntarioR       GET POST
+/voluntario/#Text                      VoluntarioEmailR  GET
+/voluntario/id/#VoluntarioId           VoluntarioIdR     GET PUT DELETE 
+/voluntario/#voluntarioId/nome/#Text   VoluntarioNomeR   PATCH
+
