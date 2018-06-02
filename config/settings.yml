@@ -30,12 +30,14 @@ ip-from-header: "_env:IP_FROM_HEADER:false"
 
 database:
   # See config/test-settings.yml for an override during tests
-  user:     "_env:PGUSER:dybgkuqtiapbwk"
-  password: "_env:PGPASS:31ce79f48f30cf5eb7ae22d3012da1be7f1bb18b3944119784cae8f323e998da"
-  host:     "_env:PGHOST:ec2-54-204-39-46.compute-1.amazonaws.com"
+  user:     "_env:PGUSER:uzprholqutamhv"
+  password: "_env:PGPASS:e9662390635de129ed1e266b568997b2cfc09c1c741aa5e40feb0a112d59004d"
+  host:     "_env:PGHOST:ec2-23-23-247-245.compute-1.amazonaws.com"
   port:     "_env:PGPORT:5432"
-  database: "_env:SQLITE_DATABASE:dcor1ka33pf710"
+  database: "_env:SQLITE_DATABASE:dffh9rjlfucq71"
   poolsize: "_env:SQLITE_POOLSIZE:10"
 
 copyright: Insert copyright statement here
 #analytics: UA-YOURCODE
+
+# psql -h ec2-23-23-247-245.compute-1.amazonaws.com -U uzprholqutamhv -d dffh9rjlfucq71
